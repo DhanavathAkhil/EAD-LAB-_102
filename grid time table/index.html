@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Time Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            background-color: rgb(212, 220, 222);
+        }       
+        table {
+            border-collapse: collapse; 
+            width: 100%;
+            background-color: white;
+            border: 3px solid black; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }       
+        th, td {
+            border: 2px solid black; 
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }       
+        th {
+            background-color: #f8f9fa; 
+            color: #333; 
+        }       
+        .day-header {
+            background-color: #e7edef; 
+            font-weight: bold;
+        }        
+        .vertical-text {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            white-space: nowrap;
+            font-size: 30px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            line-height: 1.5;
+        }        
+        td:hover {
+            background-color: #f1f1f1; 
+        }       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Chaitanya Bharathi Institute of Technology</h2>
+        <h4 class="text-center">Class Time Table</h4>
+        <p class="text-center"><b>Program:</b> <u>B.E</u> <b>Branch:</b> <u>IT</u> <b>Semester:</b> <u>V SEM</u> <b>Section:</b> <u>IT-2(H2)</u></p>        
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Periods(Time) / Days</th>
+                    <th>1<br>9:10 am - 10:10 am</th>
+                    <th>2<br>10:10 am - 11:10 am</th>
+                    <th>3<br>11:15 am - 12:15 pm</th>
+                    <th>12:15 pm - 1:00 pm</th>
+                    <th>4<br>1:00 pm - 2:00 pm</th>
+                    <th>5<br>2:00 pm - 3:00 pm</th>
+                    <th>6<br>3:05 pm - 4:05 pm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="day-header">MON</td>
+                    <td>SE</td>
+                    <td>FLAT</td>
+                    <td>EAD</td>
+                    <td class="vertical-text" rowspan="6">Lunch Break</td>
+                    <td>PE-2</td>
+                    <td>CN</td>
+                    <td>ML</td>
+                </tr>
+                <tr>
+                    <td class="day-header">TUE</td>
+                    <td>PE-2</td>
+                    <td colspan="2">CT LAB(B1) / ML LAB(B2)</td>
+                    <td>CN</td>
+                    <td>CC LAB(BATCH-1) / Library(B2)</td>
+                    <td>CC LAB(BATCH-1) / Sports(B2)</td>
+                </tr>
+                <tr>
+                    <td class="day-header">WED</td>
+                    <td>EAD</td>
+                    <td>ML</td>
+                    <td>CN LAB(B1) / EAD LAB(B2)</td>
+                    <td>CN LAB(B1) / EAD LAB(B2)</td>
+                    <td>SE</td>
+                    <td>FLAT</td>
+                </tr>
+                <tr>
+                    <td class="day-header">THU</td>
+                    <td colspan="2">ML LAB(B1) / CT LAB(B2)</td>
+                    <td>CN</td>
+                    <td>SE</td>
+                    <td colspan="2">EAD LAB(B1) / CN LAB(B2)</td>
+                </tr>
+                <tr>
+                    <td class="day-header">FRI</td>
+                    <td>FLAT</td>
+                    <td>ML</td>
+                    <td>PE-2</td>
+                    <td>EAD</td>
+                    <td>CC LAB(B2)/ library(B1)</td>
+                    <td>CC LAB(B2)/ sports(B1)</td>
+                </tr>
+                <tr>
+                    <td class="day-header">SAT</td>
+                    <td colspan="1">MENTORING</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
