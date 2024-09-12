@@ -53,7 +53,7 @@ export default App;*/
 
 
 import React from "react";
-import PasswordStrengthChecker from "./src/Password";
+import PasswordStrengthChecker from "./Password";
 import './app.css';
 function App() {
   return (
