@@ -1,0 +1,68 @@
+/* src/Timer.css */
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .timer h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 1rem;
+    color: #333;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .controls button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .controls button:active {
+    transform: scale(0.95);
+  }
+  
+  .controls button:nth-of-type(2) {
+    background-color: #28a745;
+  }
+  
+  .controls button:nth-of-type(2):hover {
+    background-color: #218838;
+  }
+  
+  .controls button:nth-of-type(3) {
+    background-color: #dc3545;
+  }
+  
+  .controls button:nth-of-type(3):hover {
+    background-color: #c82333;
+  }
+  
+  
